@@ -2,7 +2,7 @@
 
 ## Takes geojson files and uploads them to socrata via standard REST API calls
 
-#### There wasn't a good way to programatically upload geojson files to Socrata. This is a work-around. Uses the standard sodapy replace and upsert methods. This script also contains support to receive email reports to let you know if the upload succeeded or failed.
+#### There wasn't a good way to programatically upload geojson files to Socrata. This is a work-around. Uses the standard sodapy replace and upsert methods. This script also contains support to receive email reports to let you know if the upload succeeded or failed and can log exceptions that script runs into at runtime.
 
 ### Steps to use this work around:
 
