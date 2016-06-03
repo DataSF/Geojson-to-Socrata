@@ -1,0 +1,5 @@
+server_addr: smtp.gmail.com
+server_port: 587
+email_addr: datasf.etls@gmail.com
+email_pass: YR Passwd
+receipients: receipent@recipients.com
