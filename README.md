@@ -8,8 +8,9 @@
 
 1. Take the first line of your geojson file like this:
 `head -n3 geoJsonFile.json > geoJsonFileHeader.json`
+and then add ]} to your file stuff to make your json valid. 
 
-2. Manually create a new geo dataset in socrata. When it asks for a file, upload your geoJsonFileHeader.json file.
+2. Manually create a new geo dataset in socrata. When it asks for a file, upload your geoJsonFileHeader.json file. No need to upload the entire file; all you need is one record so that you can create the attribute schema for the geodata set. 
 
 3. Once the geodata dataset is created, grab the 4x4 for the layer (important to note- the dataset 4x4 and the layer 4x4 are two separate things. You want the layer 4x4 as you will be upserting to this). Stick the layer 4x4 for the dataset into the script's configuration file, fieldconfig.yaml
 
